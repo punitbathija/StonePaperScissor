@@ -1,0 +1,74 @@
+#stone,#paper,#scissor
+{
+
+    font-size: 65px;
+    height: 115px;
+    width: 200px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border: white 5px solid;
+
+}
+
+.buttonContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+body
+{
+    background-color: black;
+}
+h1
+{
+    color: whitesmoke;
+    font-size: 45px;
+    text-align: center;
+    font-family: monospace;
+}
+
+#desc
+{  
+    color: whitesmoke;
+    font-size: 45px;
+    text-align: center;
+    font-family: monospace;
+}
+#scoreInfo,#youScore,#botScore
+{
+    margin-top: -39px;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.text,.scoreContainer,#result
+{
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    font-family: monospace;
+}
+
+#play-again
+{
+    padding: 12px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border: white 5px solid;
+    margin: auto;
+}
